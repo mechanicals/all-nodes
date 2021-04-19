@@ -1,11 +1,11 @@
 // Typography
 
 $font--provider:    'Google Fonts';
-$font--import:      'Lato:400,500,600,700,800|Inter:700';
+$font--import:      'Lato:400,500,600,700,800|Montserrat:700';
 
 // The font set
 $font--family: (
-	heading: 	'Inter, Sans-serif',
+	heading: 	'Montserrat, Sans-serif',
 	base:		'"Lato", sans-serif',
 	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
 	pre: 		'"Courier 10 Pitch", Courier, monospace'

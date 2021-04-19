@@ -71,7 +71,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We are the leading staking service provider for blockchain projects. Join our community to help secure networks and earn rewards. We know staking.
+                We are the leading staking service provider for blockchain projects. Join our community to help secure networks and earn rewards. <br /><b className="text-color-primary">We know staking.</b>
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

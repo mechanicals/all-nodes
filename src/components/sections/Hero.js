@@ -60,6 +60,12 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+            <Image
+                className="has-shadow"
+                src={require('./../../assets/images/all_nodes_yellow_logo.png')}
+                alt="Hero"
+                width={100}
+                height={100} />
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               super<span className="text-color-primary">Nodes</span>
             </h1>

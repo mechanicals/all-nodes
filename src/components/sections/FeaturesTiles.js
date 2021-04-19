@@ -55,7 +55,13 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <div style={{
+            display: 'flex',
+            justifyContent:'center',
+            marginBottom: '50px'
+          }}>
+            <h2 className={'mt-0 mb-16'}>Future <span className="text-color-primary">Networks</span></h2>
+          </div>
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
